@@ -1,3 +1,14 @@
-Lab6 - Association Rules Mining
-Jorge Guevara
+Lab 6
+
 Arkadiy Kraminsky
+Jorge Guevara
+
+Our program takes the sparse vector files.
+It uses the goods.csv file to get the Goods.Food and Goods.Flavor values.
+
+To run:
+
+python apriori.py <CSVFile> <minSup> <minConf> 
+
+minSup and minConf are percent values, so a minSup of 4 means 4% and a minSup of .4 means 0.4%.
+
